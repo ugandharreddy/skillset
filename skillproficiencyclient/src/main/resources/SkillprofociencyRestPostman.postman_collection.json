@@ -1,0 +1,170 @@
+{
+	"variables": [],
+	"info": {
+		"name": "SkillprofociencyRestPostman",
+		"_postman_id": "4d93b8d9-9c21-389e-fcf0-f1fc53b896e2",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://192.168.200.108:8080/SkillProficiencyClient/login",
+			"request": {
+				"url": "http://192.168.200.108:8080/SkillProficiencyClient/login",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "mukesh.venkatesh@attra.com.au",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Apple@!32",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.200.108:8080/SkillProficiencyClient/AdminAccrediation",
+			"request": {
+				"url": "http://192.168.200.108:8080/SkillProficiencyClient/AdminAccrediation",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.200.108:8080/SkillProficiencyClient/viewProficiency",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Body matches string\"] = responseBody.has(\"View\");"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "http://192.168.200.108:8080/SkillProficiencyClient/viewProficiency",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.200.108:8080/SkillProficiencyClient/updateAccrediation/Mangodb/null/11",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Body matches string\"] = responseBody.has(\"successfully\");"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "http://192.168.200.108:8080/SkillProficiencyClient/updateAccrediation/Mangodb/null/11",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.200.108:8080/SkillProficiencyClient/AdminDomain",
+			"request": {
+				"url": "http://192.168.200.108:8080/SkillProficiencyClient/AdminDomain",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.200.108:8080/SkillProficiencyClient/AdminSubDomain",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Body matches string\"] = responseBody.has(\"Subdomain List\");"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "http://192.168.200.108:8080/SkillProficiencyClient/AdminSubDomain",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.200.108:8080/SkillProficiencyClient/AdminMethodology",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Body matches string\"] = responseBody.has(\"Methodology List\");"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "http://192.168.200.108:8080/SkillProficiencyClient/AdminMethodology",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.200.108:8080/SkillProficiencyClient/AdminSkill",
+			"request": {
+				"url": "http://192.168.200.108:8080/SkillProficiencyClient/AdminSkill",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.200.108:8080/SkillProficiencyClient/viewProficiency",
+			"request": {
+				"url": "http://192.168.200.108:8080/SkillProficiencyClient/viewProficiency",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
