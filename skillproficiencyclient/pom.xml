@@ -38,7 +38,7 @@
 		<!-- Junit Dependency -->
 		<!-- demo testing -->
 		<!-- dev demo testing -->
-    		<!-- new demo file for testing -->
+    	<!-- new demo file for testing -->
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-all</artifactId>
@@ -64,8 +64,9 @@
 			<scope>test</scope>
 		</dependency>
 
-    		<!-- Spring Dependencies -->
+    	<!-- Spring Dependencies -->
  		<!-- Test Demo Spring Dependencies -->
+		<!-- Demo for testing -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
