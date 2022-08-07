@@ -64,8 +64,8 @@
 			<scope>test</scope>
 		</dependency>
 
-
-		<!-- Spring Dependencies -->
+    		<!-- Spring Dependencies -->
+ 		<!-- Test Demo Spring Dependencies -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
