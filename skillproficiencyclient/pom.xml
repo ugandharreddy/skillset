@@ -90,7 +90,8 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
-
+		 <!-- Junit Dependency -->
+                <!-- demo testing -->
 		<!-- Spring Transaction -->
 		<dependency>
 			<groupId>org.springframework</groupId>
