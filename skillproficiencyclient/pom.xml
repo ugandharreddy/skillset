@@ -37,8 +37,6 @@
 
 		<!-- Junit Dependency -->
 		<!-- demo testing -->
-		<!-- dev demo testing -->
-    	<!-- new demo file for testing -->
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-all</artifactId>
