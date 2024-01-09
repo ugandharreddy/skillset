@@ -345,6 +345,13 @@
 					<downloadJavadocs>true</downloadJavadocs>
 				</configuration>
 			</plugin>
+
+		<!-- Junit Dependency -->
+		<!-- demo testing -->
+		<!-- devops test demo -->
+		<!-- new deployment -->
+		<!-- new pom.xml file changes -->
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
