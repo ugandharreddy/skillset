@@ -35,10 +35,6 @@
 			<version>3.7</version>
 		</dependency>
 		<!-- Junit Dependency test -->
-		<!-- Junit Dependency -->
-		<!-- demo testing -->
-		<!-- devops test demo -->
-		<!-- new deployment -->
 		<!-- new pom.xml file changes -->
 		<dependency>
 			<groupId>org.mockito</groupId>
